@@ -1,0 +1,27 @@
+# Environnement Python isolé
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Données brutes et dérivées (non jointes, recréées par run.sh)
+data/raw/*.tsv
+data/raw/*.part
+data/processed/*.tsv
+
+# Journaux et temporaires
+logs/*.log
+tmp/*
+!tmp/.gitkeep
+
+# Archives de résultats datées
+results/archive/*.tar.gz
+!results/archive/.gitkeep
+
+# Archives de remise
+Projet_Maladie_Groupe_*.zip
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini

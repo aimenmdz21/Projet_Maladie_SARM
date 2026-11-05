@@ -1,0 +1,62 @@
+drug	class
+# Mapping des antibiotiques observés dans AST_phenotypes vers les classes utilisées
+# pour la définition de la multirésistance (MDR = résistance à >= 3 classes).
+amikacin	aminoglycoside
+amoxicillin	beta-lactam
+amoxicillin-clavulanic acid	beta-lactam
+ampicillin	beta-lactam
+ampicillin-sulbactam	beta-lactam
+azithromycin	macrolide
+benzylpenicillin	beta-lactam
+carbenicillin	beta-lactam
+cefazolin	beta-lactam
+cefepime	beta-lactam
+cefotaxime	beta-lactam
+cefoxitin	beta-lactam
+cefpodoxime	beta-lactam
+ceftaroline	beta-lactam
+ceftazidime	beta-lactam
+ceftriaxone	beta-lactam
+cefuroxime	beta-lactam
+cephalexin	beta-lactam
+chloramphenicol	phenicol
+ciprofloxacin	fluoroquinolone
+clindamycin	lincosamide
+daptomycin	lipopeptide
+delafloxacin	fluoroquinolone
+dicloxacillin	beta-lactam
+doxycycline	tetracycline
+enrofloxacin	fluoroquinolone
+ertapenem	beta-lactam
+erythromycin	macrolide
+fosfomycin	fosfomycin
+fusidic acid	fusidic acid
+gentamicin	aminoglycoside
+imipenem	beta-lactam
+kanamycin	aminoglycoside
+levofloxacin	fluoroquinolone
+linezolid	oxazolidinone
+meropenem	beta-lactam
+minocycline	tetracycline
+moxifloxacin	fluoroquinolone
+mupirocin	mupirocin
+nafcillin	beta-lactam
+nalidixic acid	fluoroquinolone
+nitrofurantoin	nitrofuran
+ofloxacin	fluoroquinolone
+oxacillin	beta-lactam
+penicillin	beta-lactam
+piperacillin-tazobactam	beta-lactam
+quinupristin	streptogramin
+quinupristin-dalfopristin	streptogramin
+rifampin	rifamycin
+streptomycin	aminoglycoside
+synercid	streptogramin
+tedizolid	oxazolidinone
+teicoplanin	glycopeptide
+tetracycline	tetracycline
+tigecycline	tetracycline
+tobramycin	aminoglycoside
+trimethoprim	folate inhibitor
+trimethoprim-sulfamethoxazole	folate inhibitor
+vancomycin	glycopeptide

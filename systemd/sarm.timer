@@ -1,0 +1,13 @@
+[Unit]
+Description=Déclenchement hebdomadaire du pipeline SARM
+Documentation=file:/opt/Projet_Maladie_SARM/README.md
+
+[Timer]
+# Tous les lundis à 03:00, avec un délai aléatoire pour éviter les pics.
+OnCalendar=Mon *-*-* 03:00:00
+RandomizedDelaySec=15min
+Persistent=true
+Unit=sarm.service
+
+[Install]
+WantedBy=timers.target

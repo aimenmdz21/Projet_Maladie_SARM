@@ -1,0 +1,354 @@
+{
+  "generated_at": "2026-11-05T18:50:52",
+  "dataset": {
+    "name": "NCBI Pathogen Detection — Staphylococcus aureus",
+    "snapshot": "PDG000000073.1314",
+    "file": "PDG000000073.1314.metadata.tsv",
+    "bytes": 164176554,
+    "sha256": "3170dd18b781eebfef1e83cdbbecbc5083240463938f424a31de96b922ebcb82",
+    "n_isolates": 175586
+  },
+  "cohort": {
+    "n_isolates": 175586,
+    "n_mecA": 96371,
+    "n_mecC": 1078,
+    "n_mrsa_genotype": 97449,
+    "n_mssa_genotype": 78137,
+    "mrsa_genotype_percent": 55.5,
+    "n_ast": 1530,
+    "ast_percent": 0.87,
+    "n_phenotype_known": 1320,
+    "n_mrsa_phenotype": 467,
+    "n_mssa_phenotype": 853,
+    "mrsa_phenotype_percent": 35.38,
+    "n_mdr_known": 1333,
+    "n_mdr": 358,
+    "mdr_percent": 26.86,
+    "n_mrsa_mdr": 247,
+    "n_mrsa_mdr_known": 467,
+    "mdr_in_mrsa_percent": 52.89,
+    "n_mssa_mdr": 110,
+    "n_mssa_mdr_known": 853,
+    "mdr_in_mssa_percent": 12.9,
+    "metrics": {
+      "n_isolates": {
+        "n": 175586,
+        "denominator": 175586,
+        "percent": 100.0
+      },
+      "n_mrsa_genotype": {
+        "n": 97449,
+        "denominator": 175586,
+        "percent": 55.5
+      },
+      "n_ast": {
+        "n": 1530,
+        "denominator": 175586,
+        "percent": 0.87
+      },
+      "n_mrsa_phenotype": {
+        "n": 467,
+        "denominator": 1320,
+        "percent": 35.38
+      },
+      "n_mdr": {
+        "n": 358,
+        "denominator": 1333,
+        "percent": 26.86
+      }
+    }
+  },
+  "concordance": {
+    "n_compared": 1320.0,
+    "true_positive": 455.0,
+    "false_negative": 13.0,
+    "false_positive": 12.0,
+    "true_negative": 840.0,
+    "sensitivity": 0.9722222222222222,
+    "specificity": 0.9859154929577465,
+    "ppv": 0.974304068522484,
+    "npv": 0.984759671746776,
+    "cohen_kappa": 0.9585993014573047
+  },
+  "top_mrsa_genes": [
+    {
+      "gene": "mecR1",
+      "family": "Cassette mec",
+      "prevalence_group": 0.8110293589467311,
+      "prevalence_control": 0.0004479311977680228,
+      "odds_ratio": 9442.12569899591,
+      "or_ci_low": 6792.117259074146,
+      "or_ci_high": 13126.059859542513,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "mecI",
+      "family": "Cassette mec",
+      "prevalence_group": 0.19708770741618692,
+      "prevalence_control": 0.00023036461599498318,
+      "odds_ratio": 1036.5438709268485,
+      "or_ci_low": 656.9695800738186,
+      "or_ci_high": 1635.423052974981,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "bleO",
+      "family": "Cassette mec",
+      "prevalence_group": 0.15481944401687037,
+      "prevalence_control": 0.007192495232732252,
+      "odds_ratio": 25.263284868720596,
+      "or_ci_low": 23.21078592935212,
+      "or_ci_high": 27.497283560356458,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "gyrA",
+      "family": "Fluoroquinolones",
+      "prevalence_group": 0.5468091001446911,
+      "prevalence_control": 0.04915724944648502,
+      "odds_ratio": 23.33572127907247,
+      "or_ci_low": 22.537694324121393,
+      "or_ci_high": 24.162005207060353,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "dfrK",
+      "family": "Folate / sulfamides",
+      "prevalence_group": 0.022032037270777533,
+      "prevalence_control": 0.001279803422194351,
+      "odds_ratio": 17.497103684379706,
+      "or_ci_low": 14.321773488724572,
+      "or_ci_high": 21.376447378040325,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "parC",
+      "family": "Fluoroquinolones",
+      "prevalence_group": 0.5775533868998143,
+      "prevalence_control": 0.07393424370016766,
+      "odds_ratio": 17.123025001788847,
+      "or_ci_low": 16.622659233596856,
+      "or_ci_high": 17.63845249376763,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "parE",
+      "family": "Fluoroquinolones",
+      "prevalence_group": 0.06878469763671254,
+      "prevalence_control": 0.004415321806570511,
+      "odds_ratio": 16.632648392518327,
+      "or_ci_low": 14.921700412686254,
+      "or_ci_high": 18.539776627196066,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "dfrS1",
+      "family": "Folate / sulfamides",
+      "prevalence_group": 0.07036501144188242,
+      "prevalence_control": 0.004876051038560477,
+      "odds_ratio": 15.428216802366798,
+      "or_ci_low": 13.910642039380525,
+      "or_ci_high": 17.111350649882237,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "ileS",
+      "family": "Mupirocine",
+      "prevalence_group": 0.029389732064977577,
+      "prevalence_control": 0.0025084147075009277,
+      "odds_ratio": 12.01241887010343,
+      "or_ci_low": 10.392610367554694,
+      "or_ci_high": 13.884693258712952,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "mph(C)",
+      "family": "Macrolides / lincosamides",
+      "prevalence_group": 0.21780623710864144,
+      "prevalence_control": 0.023138845873273865,
+      "odds_ratio": 11.75268915424016,
+      "or_ci_low": 11.190138679703432,
+      "or_ci_high": 12.343520157326141,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "ant(6)-Ia",
+      "family": "Aminoglycosides",
+      "prevalence_group": 0.2783404652690125,
+      "prevalence_control": 0.03207187376019043,
+      "odds_ratio": 11.638149123630772,
+      "or_ci_low": 11.157396784906046,
+      "or_ci_high": 12.139616223660932,
+      "p_value": 0.0,
+      "q_value": 0.0
+    },
+    {
+      "gene": "aph(3')-IIIa",
+      "family": "Aminoglycosides",
+      "prevalence_group": 0.27324036162505516,
+      "prevalence_control": 0.032647785300177895,
+      "odds_ratio": 11.13801513247311,
+      "or_ci_low": 10.681064918732034,
+      "or_ci_high": 11.614514286270882,
+      "p_value": 0.0,
+      "q_value": 0.0
+    }
+  ],
+  "top_mdr_genes": [
+    {
+      "gene": "erm(A)",
+      "family": "Macrolides / lincosamides",
+      "prevalence_group": 0.4777327935222672,
+      "prevalence_control": 0.004545454545454545,
+      "odds_ratio": 133.90347490347492,
+      "or_ci_low": 26.36772833941043,
+      "or_ci_high": 680.0032357898004,
+      "p_value": 4.7055780414840884e-39,
+      "q_value": 1.5528407536897492e-37
+    },
+    {
+      "gene": "ant(9)-Ia",
+      "family": "Aminoglycosides",
+      "prevalence_group": 0.46153846153846156,
+      "prevalence_control": 0.004545454545454545,
+      "odds_ratio": 125.50686641697878,
+      "or_ci_low": 24.712449333275742,
+      "or_ci_high": 637.4104527388571,
+      "p_value": 2.756397486145628e-37,
+      "q_value": 4.548055852140286e-36
+    },
+    {
+      "gene": "aadD1",
+      "family": "Aminoglycosides",
+      "prevalence_group": 0.4089068825910931,
+      "prevalence_control": 0.01818181818181818,
+      "odds_ratio": 33.33295411452408,
+      "or_ci_low": 12.671429821025422,
+      "or_ci_high": 87.68432968451341,
+      "p_value": 4.5043822987212604e-28,
+      "q_value": 4.954820528593386e-27
+    },
+    {
+      "gene": "parC",
+      "family": "Fluoroquinolones",
+      "prevalence_group": 0.8259109311740891,
+      "prevalence_control": 0.33636363636363636,
+      "odds_ratio": 9.244542158450976,
+      "or_ci_low": 6.01380696227178,
+      "or_ci_high": 14.21089174553308,
+      "p_value": 7.601846665035659e-28,
+      "q_value": 6.271523498654419e-27
+    },
+    {
+      "gene": "gyrA",
+      "family": "Fluoroquinolones",
+      "prevalence_group": 0.7894736842105263,
+      "prevalence_control": 0.29545454545454547,
+      "odds_ratio": 8.840494365685206,
+      "or_ci_low": 5.8101947324460825,
+      "or_ci_high": 13.451242897810591,
+      "p_value": 1.372222178563931e-27,
+      "q_value": 9.056666378521945e-27
+    },
+    {
+      "gene": "mecI",
+      "family": "Cassette mec",
+      "prevalence_group": 0.3643724696356275,
+      "prevalence_control": 0.013636363636363636,
+      "odds_ratio": 35.70748299319728,
+      "or_ci_low": 12.038802699478511,
+      "or_ci_high": 105.90956372801959,
+      "p_value": 2.9092162736136682e-25,
+      "q_value": 1.6000689504875174e-24
+    },
+    {
+      "gene": "bleO",
+      "family": "Cassette mec",
+      "prevalence_group": 0.3603238866396761,
+      "prevalence_control": 0.013636363636363636,
+      "odds_ratio": 35.09013068949977,
+      "or_ci_low": 11.828919037539514,
+      "or_ci_high": 104.09381177591484,
+      "p_value": 6.7732776987425925e-25,
+      "q_value": 3.1931166294072224e-24
+    },
+    {
+      "gene": "erm(C)",
+      "family": "Macrolides / lincosamides",
+      "prevalence_group": 0.2834008097165992,
+      "prevalence_control": 0.0,
+      "odds_ratio": 175.15774647887324,
+      "or_ci_low": 10.773125906562976,
+      "or_ci_high": 2847.8490289310425,
+      "p_value": 2.803502011683309e-22,
+      "q_value": 1.1564445798193648e-21
+    },
+    {
+      "gene": "murA",
+      "family": "Fosfomycine",
+      "prevalence_group": 0.4089068825910931,
+      "prevalence_control": 0.6727272727272727,
+      "odds_ratio": 0.3382516863745533,
+      "or_ci_low": 0.23176857130489664,
+      "or_ci_high": 0.4936571110183647,
+      "p_value": 1.2498138491361144e-08,
+      "q_value": 4.582650780165753e-08
+    },
+    {
+      "gene": "tet(K)",
+      "family": "Tétracyclines",
+      "prevalence_group": 0.15384615384615385,
+      "prevalence_control": 0.01818181818181818,
+      "odds_ratio": 8.841421373640944,
+      "or_ci_low": 3.269718002885674,
+      "or_ci_high": 23.907484326564475,
+      "p_value": 6.884969372787289e-08,
+      "q_value": 2.2720398930198055e-07
+    },
+    {
+      "gene": "rpsJ",
+      "family": "Tétracyclines",
+      "prevalence_group": 0.11740890688259109,
+      "prevalence_control": 0.004545454545454545,
+      "odds_ratio": 19.756674294431733,
+      "or_ci_low": 3.789932798687019,
+      "or_ci_high": 102.99026392011059,
+      "p_value": 1.0366658242245092e-07,
+      "q_value": 3.1099974726735277e-07
+    },
+    {
+      "gene": "parE",
+      "family": "Fluoroquinolones",
+      "prevalence_group": 0.17813765182186234,
+      "prevalence_control": 0.031818181818181815,
+      "odds_ratio": 6.224897624897625,
+      "or_ci_low": 2.8051134487156815,
+      "or_ci_high": 13.813826481134818,
+      "p_value": 1.7135561760208796e-07,
+      "q_value": 4.712279484057419e-07
+    }
+  ],
+  "temporal": {
+    "year_min": 1990,
+    "year_max": 2026,
+    "n_years": 37
+  },
+  "software": {
+    "python": "3.12.10",
+    "pandas": "2.3.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  }
+}

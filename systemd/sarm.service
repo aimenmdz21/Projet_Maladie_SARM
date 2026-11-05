@@ -1,0 +1,17 @@
+[Unit]
+Description=Pipeline SARM — analyse NCBI Pathogen Detection
+Documentation=file:/opt/Projet_Maladie_SARM/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=sarm
+Group=sarm
+WorkingDirectory=/opt/Projet_Maladie_SARM
+ExecStart=/opt/Projet_Maladie_SARM/run.sh -n
+Nice=10
+IOSchedulingClass=idle
+StandardOutput=journal
+StandardError=journal
+TimeoutStartSec=30min

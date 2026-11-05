@@ -1,0 +1,17 @@
+Projet : SARM — Enquête sur une maladie
+Dépôt Git : https://github.com/aimenmdz21/Projet_Maladie_SARM.git
+Commit final : $Format:%H$
+Branche : main
+Date : 5 novembre 2026
+
+# ---------------------------------------------------------------------------
+# Le dépôt est créé et poussé sur GitHub.
+# Pour mettre à jour après une modification :
+#       ./run.sh -n
+#       git add -A && git commit -m "..."
+#       git push origin main
+#
+# Le hash est substitué automatiquement par `git archive` grâce à l'attribut
+# `LIEN_GIT.txt export-subst` de .gitattributes. Dans le dépôt, il apparaît
+# sous forme de marqueur ; dans le zip de remise, il contient le vrai hash.
+# ---------------------------------------------------------------------------

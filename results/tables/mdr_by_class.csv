@@ -1,0 +1,18 @@
+drug_class,n_tested,n_resistant,percent_resistant,n_resistant_mrsa,n_resistant_mssa
+beta-lactam,1325,770,58.11,467,301
+macrolide,1310,564,43.05,286,277
+lincosamide,1290,413,32.02,183,224
+fluoroquinolone,1106,196,17.72,159,34
+mupirocin,392,53,13.52,32,21
+aminoglycoside,1130,143,12.65,90,50
+tetracycline,1044,87,8.33,65,21
+lipopeptide,698,51,7.31,50,0
+folate inhibitor,1251,67,5.36,54,7
+fusidic acid,273,12,4.4,0,12
+oxazolidinone,947,34,3.59,33,1
+rifamycin,1308,38,2.91,35,2
+glycopeptide,1049,27,2.57,26,1
+nitrofuran,269,2,0.74,1,1
+fosfomycin,1,0,0.0,0,0
+phenicol,19,0,0.0,0,0
+streptogramin,9,0,0.0,0,0

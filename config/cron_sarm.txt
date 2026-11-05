@@ -1,0 +1,11 @@
+# Tâche planifiée — cron
+# Projet SARM : relance hebdomadaire du pipeline, sans téléchargement.
+# Adapter le chemin /opt/Projet_Maladie_SARM à votre machine.
+#
+# Installation :
+#   crontab -e
+#   (coller la ligne ci-dessous, puis :wq)
+#   crontab -l
+#
+# Min Heure Jour Mois JourSemaine  Commande
+0 3 * * 1 cd /opt/Projet_Maladie_SARM && ./run.sh -n >> logs/cron.log 2>&1

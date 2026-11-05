@@ -1,0 +1,2 @@
+n_compared,true_positive,false_negative,false_positive,true_negative,sensitivity,specificity,ppv,npv,cohen_kappa
+1320,455,13,12,840,0.9722222222222222,0.9859154929577465,0.974304068522484,0.984759671746776,0.9585993014573047

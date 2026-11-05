@@ -1,0 +1,13 @@
+metric,n,denominator,comment,percent
+Isolats analysés,175586,175586,Toutes les lignes du snapshot,100.0
+mecA détecté,96371,175586,Génotype AMR,54.89
+mecC détecté,1078,175586,Génotype AMR,0.61
+SARM génotypique (mecA ou mecC),97449,175586,Définition principale,55.5
+SARM génotypique sans mecA/mecC,78137,175586,Comparateur MSSA,44.5
+Isolats avec AST,1530,175586,Phénotypes disponibles,0.87
+Phénotype SARM (oxacilline ou céfoxitine R),467,1320,Sous-cohorte AST,35.38
+Phénotype MSSA,853,1320,Sous-cohorte AST,64.62
+MDR évaluable,1333,1530,>= 3 classes testées,87.12
+MDR (>= 3 classes R),358,1333,Toute la sous-cohorte AST,26.86
+MDR chez les SARM phénotypiques,247,467,Question principale,52.89
+MDR chez les MSSA phénotypiques,110,853,Comparateur,12.9
