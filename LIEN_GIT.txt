@@ -2,7 +2,7 @@ Projet : SARM — Enquête sur une maladie
 Dépôt Git : https://github.com/aimenmdz21/Projet_Maladie_SARM.git
 Commit final : $Format:%H$
 Branche : main
-Date : 5 novembre 2026
+Date : 13 novembre 2026
 
 # ---------------------------------------------------------------------------
 # Le dépôt est créé et poussé sur GitHub.
