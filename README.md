@@ -7,7 +7,7 @@ Pipeline reproductible Shell + Python, sans R et sans séquences brutes, constru
 à partir du snapshot public **NCBI Pathogen Detection PDG000000073.1314**.
 
 - **Groupe :** Groupe SARM
-- **Membres :** 5 étudiants — noms à compléter dans `config/group.env` (`NOM Prénom 1` … `NOM Prénom 5`)
+- **Membres :** `Gharbi Anfal` , `MAMACHE Aime` , `Bouzina Maria` , `Ouriachi Mohamed` , `Chafaa Ines`
 - **Cours :** Module — Enquête sur une maladie, 2026-2027
 - **Date de remise :** 20 novembre 2026
 - **Dépôt :** voir `LIEN_GIT.txt`
@@ -355,11 +355,13 @@ sha256sum -c ../checksums.sha256
 
 | Membre | Rôle principal | Contributions |
 |---|---|---|
-| **Membre 1** | Coordinateur · données | choix du sujet, fiche de validation, téléchargement NCBI, `SOURCES.md`, checksums |
-| **Membre 2** | Shell · administration | `run.sh`, `getopts`, `trap`, journaux, cron/systemd, droits, archive tar |
-| **Membre 3** | Python · statistiques | `analysis.py`, parsing, Fisher, BH, OR/IC, figures, `summary.json` |
-| **Membre 4** | Rapport · visualisation | `report.py`, mise en page 4 pages, relecture des résultats, figures |
-| **Membre 5** | Tests · présentation · Git | `test_analysis.py`, `make_slides.py`, README, dépôt Git |
+
+| **Gharbi Anfal** | Architecte Shell & E/S | Script `run.sh`, options `getopts`, gestion d'erreurs (`set -euo pipefail`, `trap`, codes de retour)[cite: 1] |
+| **MAMACHE Aimen** | Pipeline & Parsing TSV | Téléchargement NCBI (`curl`), contrôle `sha256sum`, protection `chmod 0444`, tubes `cut \| awk \| sed`[cite: 1] |
+| **Bouzina Maria** | Analyse & Visualisation | Script `analysis.py` (`argparse`), statistiques (Fisher, OR, BH), figures et tests unitaires (`pytest`)[cite: 1] |
+| **Chafaa Ines** | Admin & Reproductibilité | Environnement `.venv` / `requirements.txt`, logs horodatés, `cron`/`systemd`, archivage `.tar.gz`, idempotence[cite: 1, 2] |
+| **Ouriachi Mohamed** | Coordination, Git & Rapport | Dépôt Git et `LIEN_GIT.txt`, documentation (`README.md`, `SOURCES.md`), rapport PDF (4 pages), audit et archive ZIP[cite: 2] |
+
 
 ---
 
