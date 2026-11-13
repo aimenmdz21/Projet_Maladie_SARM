@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:50:52",
+  "generated_at": "2026-11-13T22:18:16",
   "dataset": {
     "name": "NCBI Pathogen Detection — Staphylococcus aureus",
     "snapshot": "PDG000000073.1314",
@@ -344,11 +344,11 @@
     "n_years": 37
   },
   "software": {
-    "python": "3.12.10",
+    "python": "3.10.12",
     "pandas": "2.3.3",
-    "numpy": "2.5.4",
-    "scipy": "1.18.1",
-    "matplotlib": "3.11.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9",
     "seaborn": "0.13.2"
   }
 }

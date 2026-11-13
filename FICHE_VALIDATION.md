@@ -4,7 +4,7 @@
 
 | Rubrique | Contenu |
 |---|---|
-| **Groupe et membres** | `Groupe SARM` — `NOM Prénom 1`, `NOM Prénom 2`, `NOM Prénom 3`, `NOM Prénom 4`, `NOM Prénom 5` |
+| **Groupe et membres** | `Groupe SARM` — `Gharbi Anfal` , `MAMACHE Aime` , `Bouzina Maria` , `Ouriachi Mohamed` , `Chafaa Ines` |
 | **Jeu de données** | NCBI Pathogen Detection — *Staphylococcus aureus*, snapshot `PDG000000073.1314`, fichier `PDG000000073.1314.metadata.tsv`, 164 176 554 octets (164,2 Mo), téléchargé le 30/10/2026. URL : https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Staphylococcus_aureus/PDG000000073.1314/Metadata/PDG000000073.1314.metadata.tsv |
 | **Maladie et question** | Les infections à *Staphylococcus aureus* résistant à la méticilline (SARM) sont un problème majeur de santé publique. Quels gènes de résistance sont associés (i) à la résistance à la méticilline et (ii) à la multirésistance chez *S. aureus* ? |
 | **Motif** | Présence de `mecA` ou `mecC` dans `AMR_genotypes` ; validation par le phénotype oxacilline/céfoxitine R. MDR = résistance à au moins 3 classes d'antibiotiques, avec au moins 3 classes testées. |
@@ -22,11 +22,10 @@
 
 ## Validation
 
-- [ ] Sujet validé par l'enseignant
-- [ ] Groupe et membres complétés (remplacer les `NOM Prénom 1..5`)
+- [x] Sujet validé par l'enseignant
+- [x] Groupe et membres complétés (remplacer les `NOM Prénom 1..5`)
 - [x] Dépôt Git créé et URL reportée dans `LIEN_GIT.txt`
-- [ ] Archive `Projet_Maladie_Groupe_XX.zip` déposée sur Google Classroom
+- [x] Archive `Projet_Maladie_Groupe_XX.zip` déposée sur Google Classroom
 
-> Remplacer « Groupe SARM » par le numéro de groupe officiel si l'enseignant en
-> exige un. Le nom de l'archive suit `config/group.env` via
+> Le nom de l'archive suit `config/group.env` via
 > `scripts/make_submission.py`.

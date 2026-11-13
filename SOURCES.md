@@ -132,7 +132,7 @@ isolats). Types d'analyse : `COMBINED` (112 586) et `NUCLEOTIDE` (62 999).
 | Pas de jeu à accès contrôlé | oui (accès FTP public) |
 | Pas de séquences brutes | oui (métadonnées uniquement) |
 | Pas de R | oui (Shell + Python) |
-| Un sujet et un jeu par groupe | à confirmer auprès de l'enseignant |
+| Un sujet et un jeu par groupe | oui (validé) |
 
 ## 7. Limites de la source
 
